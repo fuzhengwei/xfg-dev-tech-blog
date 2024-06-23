@@ -4,7 +4,7 @@ version: '3.9'
 services:
   # yum install -y httpd-tools
   nginx:
-    image: nginx:latest
+    image: nginx:1.25.1
     container_name: nginx
     restart: always
     ports:
